@@ -4,6 +4,6 @@ namespace API.Errors
     {
         public int StatusCode { get; set; } = statusCode;
         public string Message { get; set; } = message;
-        public string? Deatils { get; set; } = details;
+        public string? Details { get; set; } = details;
     }
 }
